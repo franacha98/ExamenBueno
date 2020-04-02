@@ -15,17 +15,18 @@ public class prueba {
     {
         int res = 0, i=0;
         
-        if(q<0)
+        if(q<0) //1
         {
-            return 0;
+            return 0; //2
         }
-        else
+        else //3
         {
-            while(i<q)
+            while(i<q) //4
             {
-                res=res + q;
-            }
-        }
+                res=res + q; //5
+                i++;
+            } //6
+        }//7
         
         return res;
     }
